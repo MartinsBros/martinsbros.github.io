@@ -1,10 +1,13 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Martinsbros</h1>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="home-wrap">
+  {% include header.html %}
+
+  <div class="home-sections">
+    {% include section-about.html %} {% include section-youtube.html %} {%
+    include section-mentoring.html %} {% include section-articles.html %} {%
+    include section-photos.html %} {% include section-footer.html %}
+  </div>
+</div>

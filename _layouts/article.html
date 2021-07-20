@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="articleContentWrapper">
+  {% include paginator.html %}
+  <div class="articleContentContainer">
+    <div class="mainArticleContent">
+      <h1>{{ page.title }}</h1>
+      <small>{{ page.articleDate }}</small>
+      {{ content }}
+    </div>
+    <div class="articleImages">
+      <img
+        src="{{ site.baseurl }}/assets/img/{{ page.primaryImage }}"
+        width="100%"
+        height="auto"
+      />
+      <div class="imageGrid">
+        {% for item in page.images %}
+        <img src="{{ site.baseurl }}/assets/img/{{ item }}" />
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
