@@ -57,3 +57,5 @@ fields:
   config: {}
   label: Image Gallery
   description: These are the article images
+pages:
+- _articles/test.html
