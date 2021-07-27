@@ -12,26 +12,46 @@ fields:
 - type: text
   name: location
   label: location
-- type: text
-  name: category
-  label: category
+- name: articleCategory
+  type: text
+  config:
+    required: true
+  label: Category
+  description: What kind of article is this?
 - type: file
   name: cover
   label: cover
 - type: datetime
   name: articleDate
-  label: articleDate
-- type: text
-  name: articleColor
-  label: articleColor
+  label: Rough Date
+- name: date
+  type: datetime
+  label: Specific Date
+  description: Enter a specific date for this article. This will be used to sort the
+    order of articles.
   config:
     required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: articleColor
+  type: color
+  config:
+    required: true
+    color_format: Hex
+  label: ArticleColor
+  description: Set the color for your article
+- name: primaryImage
+  type: file
+  config:
+    maxSize: 64
+  label: Hero Image
+  description: This is the first image in the article.<br>
+- name: images
+  type: image_gallery
+  config: {}
+  label: Image Gallery
+  description: These are the article images
 - type: boolean
   name: lightText
   label: lightText
-- type: file
-  name: primaryImage
-  label: primaryImage
-- type: image_gallery
-  name: images
-  label: images
