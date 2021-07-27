@@ -5,6 +5,7 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: article
 - type: text
   name: title
   label: title
@@ -23,6 +24,8 @@ fields:
 - type: text
   name: articleColor
   label: articleColor
+  config:
+    required: true
 - type: boolean
   name: lightText
   label: lightText
