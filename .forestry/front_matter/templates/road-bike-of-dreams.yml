@@ -1,0 +1,34 @@
+---
+label: Road Bike of Dreams
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: location
+  label: location
+- type: text
+  name: category
+  label: category
+- type: file
+  name: cover
+  label: cover
+- type: datetime
+  name: articleDate
+  label: articleDate
+- type: text
+  name: articleColor
+  label: articleColor
+- type: boolean
+  name: lightText
+  label: lightText
+- type: file
+  name: primaryImage
+  label: primaryImage
+- type: image_gallery
+  name: images
+  label: images
