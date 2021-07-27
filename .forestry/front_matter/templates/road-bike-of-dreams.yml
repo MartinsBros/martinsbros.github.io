@@ -6,9 +6,13 @@ fields:
   name: article
   label: layout
   default: article
+  hidden: true
 - type: text
   name: title
   label: title
+  description: Give your article a title
+  config:
+    required: true
 - type: text
   name: location
   label: location
