@@ -6,6 +6,7 @@ fields:
   name: layout
   label: layout
   default: article
+  hidden: true
 - type: text
   name: title
   label: title
