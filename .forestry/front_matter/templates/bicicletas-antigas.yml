@@ -41,6 +41,10 @@ fields:
     color_format: Hex
   label: ArticleColor
   description: Set the color for your article
+- name: lightText
+  type: boolean
+  label: Light Text
+  description: Turn this on if the article color is too dark for black text.
 - name: primaryImage
   type: file
   config:
@@ -52,6 +56,3 @@ fields:
   config: {}
   label: Image Gallery
   description: These are the article images
-- type: boolean
-  name: lightText
-  label: lightText
