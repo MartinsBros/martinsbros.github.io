@@ -16,6 +16,7 @@ fields:
 - type: text
   name: location
   label: location
+  description: Enter a location for the article
 - type: text
   name: category
   label: category
@@ -25,6 +26,7 @@ fields:
 - type: datetime
   name: articleDate
   label: articleDate
+  description: 'Set a rough date. Example: 2018 '
 - type: text
   name: articleColor
   label: articleColor
