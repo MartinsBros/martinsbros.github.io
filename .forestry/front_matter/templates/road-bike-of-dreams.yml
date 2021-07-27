@@ -5,6 +5,7 @@ fields:
 - type: text
   name: article
   label: layout
+  default: article
 - type: text
   name: title
   label: title
