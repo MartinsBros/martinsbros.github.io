@@ -1,6 +1,6 @@
 ---
-label: Bicicletas Antigas
-hide_body: false
+label: Article
+hide_body: true
 fields:
 - type: text
   name: layout
@@ -49,6 +49,24 @@ fields:
   type: boolean
   label: Light Text
   description: Turn this on if the article color is too dark for black text.
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Enter the text for the body of the article.
+  label: Article Description
+- name: articleDetails
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Article Details
+  description: Enter the article details list
 - name: primaryImage
   type: file
   config:
