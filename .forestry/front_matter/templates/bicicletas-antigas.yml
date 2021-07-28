@@ -22,8 +22,10 @@ fields:
 - type: file
   name: cover
   label: cover
-- type: datetime
-  name: articleDate
+- name: articleDate
+  type: text
+  config:
+    required: false
   label: Rough Date
 - name: date
   type: datetime
