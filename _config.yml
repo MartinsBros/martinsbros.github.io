@@ -19,3 +19,7 @@ sass:
 collections:
   articles:
     output: true
+  photos:
+    output: true
+  aquisicoes:
+    output: true

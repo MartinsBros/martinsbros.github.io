@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<!--<style type="text/css">
+  {% for article in site.articles %}
+  {% if article.lightText == true %}
+  a.{{ article.title | slugify }}:visited {
+    background-color: {{ article.articleColor }};
+    color: white;
+  }
+  a.{{ article.title | slugify }}:hover {
+    background-color: {{ article.articleColor }};
+    color: white;
+
+  }
+  a.{{ article.title | slugify }}:active {
+    background-color: {{ article.articleColor }};
+    color: white;
+  }
+  {% else %}
+  a.{{ article.title | slugify }}:visited {
+    background-color: {{ article.articleColor }};
+  }
+  a.{{ article.title | slugify }}:hover {
+    background-color: {{ article.articleColor }};
+  }
+  a.{{ article.title | slugify }}:active {
+    background-color: {{ article.articleColor }};
+  }
+  {% endif %}
+  {% endfor %}
+</style>-->
+<div class="articlesWrapper">
+  {% for article in site.articles %}
+  <a
+    href="{{ site.baseurl }}{{ article.url }}"
+    class="article {{ article.title | slugify }}{% if article.lightText == true %} lightText {% endif %}"
+  >
+    <h3>{{article.title}}</h3>
+    <small>{{article.location}}</small>
+    <small>{{article.category}}</small>
+    <small>{{article.articleDate}}</small>
+  </a>
+  {% endfor %}
+</div>
