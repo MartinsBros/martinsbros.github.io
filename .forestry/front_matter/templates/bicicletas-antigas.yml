@@ -27,6 +27,7 @@ fields:
   config:
     required: false
   label: Rough Date
+  description: 'Set a rough article date. Example: 2018'
 - name: date
   type: datetime
   label: Specific Date
