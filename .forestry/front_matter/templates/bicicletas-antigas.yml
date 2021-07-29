@@ -56,7 +56,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: html
+      format: markdown
   description: Enter the text for the body of the article.
   label: Article Description
 - name: articleDetails
