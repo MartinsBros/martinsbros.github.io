@@ -80,6 +80,5 @@ fields:
   description: These are the article images
 pages:
 - _articles/quadros.html
-- _articles/road-bikes-of-dream.html
 - _articles/road-bikes-of-dreams.md
 - _articles/sss.md
