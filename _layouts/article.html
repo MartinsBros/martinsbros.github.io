@@ -8,7 +8,12 @@ layout: default
     <div class="mainArticleContent">
       <h1>{{ page.title }}</h1>
       <small>{{ page.articleDate }}</small>
-      {{ content }}
+      <p>{{ page.body }}</p>
+      <ul>
+        {% for item in page.articleDetails %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
     </div>
     <div class="articleImages">
       <img
