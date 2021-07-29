@@ -24,6 +24,5 @@ images:
 - "/assets/img/Change-for-Change_Project_6.jpg"
 - "/assets/img/Change-for-Change_Project_7.jpg"
 - "/assets/img/Change-for-Change_Project_8.jpg"
-published: false
 
 ---
