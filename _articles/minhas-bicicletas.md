@@ -7,7 +7,7 @@ cover: "/assets/img/mentoring-bg.jpg"
 articleDate: "2021"
 date: 2021-03-08 00:00:00 +0000
 articleColor: "#C68CE2"
-lightText: false
+lightText: true
 body: |-
   I'm baby truffaut banjo waistcoat ramps poutine mixtape street art kombucha. Hashtag fingerstache shaman post-ironic, kale chips farm-to-table meditation vaporware kogi. Squid cred bitters, jean shorts iPhone wayfarers gochujang jianbing. Pour-over selfies you probably haven't heard of them flexitarian tofu.
 
