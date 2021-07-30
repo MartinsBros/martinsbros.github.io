@@ -79,6 +79,7 @@ fields:
   label: Image Gallery
   description: These are the article images
 pages:
+- _articles/city-bikes.md
 - _articles/foruns.md
 - _articles/minhas-bicicletas.md
 - _articles/mtb-of-dreams.md
