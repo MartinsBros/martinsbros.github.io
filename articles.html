@@ -32,7 +32,7 @@ layout: default
   {% endfor %}
 </style>
 <div class="articlesWrapper">
-  {% for article in site.articles %}
+  {% for article in site.articles reversed %}
   <a
     href="{{ site.baseurl }}{{ article.url }}"
     class="article {{ article.title | slugify }}{% if article.lightText == true %} lightText {% endif %}"
