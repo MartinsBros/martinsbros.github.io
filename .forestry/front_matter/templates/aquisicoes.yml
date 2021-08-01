@@ -3,7 +3,7 @@ label: Aquisições
 hide_body: false
 fields:
 - type: text
-  name: layout
+  name: aqusicao
   label: layout
 - type: text
   name: title
