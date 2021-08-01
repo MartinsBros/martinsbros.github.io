@@ -3,7 +3,7 @@ label: Photos
 hide_body: false
 fields:
 - type: text
-  name: layout
+  name: photo
   label: layout
 - type: text
   name: title
