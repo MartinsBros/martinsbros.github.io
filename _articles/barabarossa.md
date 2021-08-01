@@ -13,6 +13,7 @@ body: |2-
 
     Glossier unicorn pickled, selfies banh mi hammock humblebrag tofu gentrify locavore before they sold out viral fam. Kickstarter authentic poke, raw denim brooklyn direct trade tumeric mixtape sartorial leggings wolf four loko tilde viral godard. Venmo scenester vape listicle synth air plant keytar, meh affogato. Pinterest VHS lo-fi chambray four dollar toast. Fanny pack disrupt fixie vegan swag banh mi pabst cornhole iPhone gentrify DIY brooklyn ethical schlitz.
 articleDetails:
+- Escrito por Paulo Martins
 - Photos by Web
 primaryImage: "/assets/img/mentoring-bg.jpg"
 images:
