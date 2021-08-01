@@ -3,8 +3,9 @@ label: Photos
 hide_body: false
 fields:
 - type: text
-  name: photo
+  name: layout
   label: layout
+  default: photo
 - type: text
   name: title
   label: title
