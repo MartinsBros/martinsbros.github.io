@@ -31,9 +31,6 @@ fields:
 - type: boolean
   name: lightText
   label: lightText
-- type: textarea
-  name: body
-  label: body
 - type: list
   name: articleDetails
   label: articleDetails
