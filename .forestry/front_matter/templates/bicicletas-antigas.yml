@@ -70,7 +70,6 @@ fields:
   label: Image Gallery
   description: These are the article images
 pages:
-- _articles/barabarossa.md
 - _articles/bicicletas-antigas.md
 - _articles/cannondale.md
 - _articles/city-bikes.md
