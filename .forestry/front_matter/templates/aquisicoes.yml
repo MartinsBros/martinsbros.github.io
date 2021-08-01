@@ -3,8 +3,9 @@ label: Aquisições
 hide_body: false
 fields:
 - type: text
-  name: aqusicao
+  name: layout
   label: layout
+  default: aquisição
 - type: text
   name: title
   label: title
