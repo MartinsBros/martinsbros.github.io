@@ -49,16 +49,6 @@ fields:
   type: boolean
   label: Light Text
   description: Turn this on if the article color is too dark for black text.
-- name: body
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: html
-  description: Enter the text for the body of the article.
-  label: Article Description
 - name: articleDetails
   type: list
   config:
