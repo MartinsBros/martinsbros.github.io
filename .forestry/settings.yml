@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: Photos
   create: all
-  match: "**/*"
 - type: directory
   path: _articles
   label: Articles
