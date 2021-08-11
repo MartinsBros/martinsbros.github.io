@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: Aquisições
   create: all
-  match: "**/*"
   templates:
   - aquisicoes
 - type: directory
