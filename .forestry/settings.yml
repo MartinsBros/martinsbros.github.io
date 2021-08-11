@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: Aquisições
+  create: all
+  match: "**/*"
+  templates:
+  - aquisicoes
 - type: directory
   path: _articles
   label: Articles
