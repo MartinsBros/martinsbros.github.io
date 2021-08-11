@@ -1,7 +1,7 @@
 ---
 label: Aquisições
 hide_body: false
-display_field: title
+display_field: layout
 fields:
 - type: text
   name: layout
