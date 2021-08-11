@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Photos
-  create: all
 - type: directory
   path: _articles
   label: Articles
