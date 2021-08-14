@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: Road Bikes of Dreams
+title: Road Bikes of Dreams II
 primaryImage: "/assets/img/gt_sts.jpg"
 images:
 - "/assets/img/posts/img/post-7.png"
