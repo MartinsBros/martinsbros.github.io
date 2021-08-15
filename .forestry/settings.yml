@@ -19,6 +19,11 @@ sections:
   label: Aquisicoes
   create: all
   match: "**/*"
+- type: directory
+  path: _videos
+  label: Videos
+  create: all
+  match: "**/*"
 upload_dir: assets/img
 public_path: "/assets/img"
 front_matter_path: ''
